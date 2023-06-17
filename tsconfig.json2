@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "allowJs": true,
+    "isolatedModules": true,
+    "lib": ["dom", "ES5", "ES2015", "ES2017", "ES2018", "ESNext"],
+    "target": "ESNEXT",
+    "module": "ESNEXT",
+    "resolveJsonModule": true,
+    "declaration": true,
+    "types": ["jest", "node"],
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
