@@ -297,15 +297,15 @@ Error generating stack: `+l.message+`
   font-size: 16px;
   font-weight: bold;
   margin-right: 14px;
-`,Wy=({items:e})=>M.jsxs(By,{children:[M.jsx(Hy,{children:"Edades:"}),e.map(t=>M.jsx(Uy,{pressed:t.pressed?"1":"",handleOnClick:t.handleOnClick,children:t.children},t.id))]}),Vy=()=>{const e=[{id:"1",children:"Ver todas",pressed:"1",handleOnClick:()=>{console.log("1")}},{id:"2",children:"5 - 7",pressed:"",handleOnClick:()=>{console.log("2")}},{id:"3",children:"8 - 9",pressed:"",handleOnClick:()=>{console.log("3")}},{id:"4",children:"10 - 11",pressed:"",handleOnClick:()=>{console.log("3")}},{id:"5",children:"12 - 15",pressed:"",handleOnClick:()=>{console.log("3")}},{id:"6",children:"16 - 18",pressed:"",handleOnClick:()=>{console.log("3")}}];return M.jsxs(uy,{children:[M.jsx(Dy,{}),M.jsx(sy,{children:M.jsx(Fy,{})}),M.jsxs(cy,{children:[M.jsx(fy,{children:M.jsx(Wy,{items:e})}),M.jsx(wy,{})]})]})},Qy=Jv([{path:"/",element:M.jsx(o0,{})},{path:"/rutas",element:M.jsx(Vy,{})},{path:"*",element:M.jsx("h1",{children:"Not found"})}]),Ky=ay`
+`,Wy=({items:e})=>M.jsxs(By,{children:[M.jsx(Hy,{children:"Edades:"}),e.map(t=>M.jsx(Uy,{pressed:t.pressed?"1":"",handleOnClick:t.handleOnClick,children:t.children},t.id))]}),Vy=()=>{const e=[{id:"1",children:"Ver todas",pressed:"1",handleOnClick:()=>{console.log()}},{id:"2",children:"5 - 7",pressed:"",handleOnClick:()=>{console.log()}},{id:"3",children:"8 - 9",pressed:"",handleOnClick:()=>{console.log()}},{id:"4",children:"10 - 11",pressed:"",handleOnClick:()=>{console.log()}},{id:"5",children:"12 - 15",pressed:"",handleOnClick:()=>{console.log()}},{id:"6",children:"16 - 18",pressed:"",handleOnClick:()=>{console.log()}}];return M.jsxs(uy,{children:[M.jsx(Dy,{}),M.jsx(sy,{children:M.jsx(Fy,{})}),M.jsxs(cy,{children:[M.jsx(fy,{children:M.jsx(Wy,{items:e})}),M.jsx(wy,{})]})]})},Qy=Jv([{path:"/",element:M.jsx(o0,{})},{path:"/rutas",element:M.jsx(Vy,{})},{path:"*",element:M.jsx("h1",{children:"Not found"})}]),Ky=ay`
   @font-face {
     font-family: 'sofiapro-light';
-    src: url('./assets/fonts/sofiapro-light.otf') format('opentype');
+    src: url('./assets/fonts/sofiapro.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
   }
 
   body {
-    font-family: 'sofiapro-light', sans-serif;
+    font-family: 'sofiapro', sans-serif;
   }
 `;ca.createRoot(document.getElementById("root")).render(M.jsxs(Lt.StrictMode,{children:[M.jsx(Ky,{}),M.jsx(Wv,{router:Qy})]}));
