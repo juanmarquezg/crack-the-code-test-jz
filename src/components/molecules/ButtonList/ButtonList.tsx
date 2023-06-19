@@ -19,8 +19,6 @@ import { useWindowSize } from "../../../hooks/useWindowResize";
 export const ButtonList: React.FC<ButtonListProps> = ({ items }) => {
   const { isResized } = useWindowSize();
 
-  console.log("isResizas", isResized);
-
   return (
     <ButtonListContainer>
       <Title>Edades:</Title>
