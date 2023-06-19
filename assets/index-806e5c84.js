@@ -124,7 +124,7 @@ Error generating stack: `+i.message+`
   bottom: -100%;
   left: 0;
   width: 100%;
-  padding: 16px;
+  padding: 20px;
   color: white;
   background-color: white;
   transition: bottom 0.3s ease;
